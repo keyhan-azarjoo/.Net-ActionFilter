@@ -20,8 +20,7 @@ public class LogActionFilter : ActionFilterAttribute
 IActionFilter is an interface that defines methods to be implemented for action filters. Unlike ActionFilterAttribute, which requires inheritance, IActionFilter allows developers to directly implement interface methods for creating custom filters. This approach offers more flexibility, especially for conditional filter application or scenarios where inheritance is not preferred.
 
 # Example:
-csharp
-Copy code
+{
 public class CustomActionFilter : IActionFilter
 {
     public void OnActionExecuting(ActionExecutingContext context)
@@ -31,7 +30,7 @@ public class CustomActionFilter : IActionFilter
 
     // Other interface methods for different stages of action execution
 }
-
+}
 # Getting Started
 To explore the usage of ActionFilterAttribute and IActionFilter, clone this repository and review the provided examples. Experiment with creating your own custom action filters to understand how they can enhance the functionality of your ASP.NET Core applications.
 
