@@ -18,7 +18,8 @@ ValidationFilterAttribute is a custom action filter designed to perform input va
 Validates incoming request parameters before they reach the controller.
 Rejects invalid requests early in the pipeline, preventing unnecessary processing.
 Customizable validation rules to suit application requirements.
-LogActionFilter
+
+# LogActionFilter
 LogActionFilter is a custom action filter responsible for logging the execution steps of controller actions. It intercepts the execution at various points, such as before and after the action method is executed, and before and after the result is executed.
 
 # Key Features:
